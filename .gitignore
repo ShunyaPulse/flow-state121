@@ -1,0 +1,38 @@
+# =========================
+# 1. PyInstaller Folders & Files
+# =========================
+# Yeh folders har baar build karne par naye bante hain
+build/
+dist/
+assets/*.wav
+*.spec
+
+# Koi bhi galti se bahar chhooti hui .exe file upload na ho
+*.exe
+*.pkg
+
+# =========================
+# 2. Python Cache
+# =========================
+# Python ki background memory files jo doosre PC par waise bhi kisi kaam ki nahi
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# 3. User Specific Data
+# =========================
+# Har user ka apna focus data alag hoga, isliye apka personal log upload nahi hona chahiye
+daily_scorecard_summary.csv
+
+# =========================
+# 4. Virtual Environments & OS Junk
+# =========================
+# Agar aage chalkar aap venv use karte hain
+venv/
+env/
+.env
+
+# Windows aur Mac ki faltu hidden files
+Thumbs.db
+.DS_Store
